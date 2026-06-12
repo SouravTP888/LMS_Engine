@@ -57,6 +57,10 @@ const Dashboard = ({ setActiveTab, setSelectedTrackId, setSelectedModule }) => {
     }
   };
 
+  if (!user) {
+    return null;
+  }
+
   if (loading) {
     return (
       <div className="flex h-[400px] flex-col items-center justify-center gap-3">
