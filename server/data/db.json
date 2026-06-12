@@ -1,0 +1,480 @@
+{
+  "users": [
+    {
+      "name": "Admin User",
+      "email": "admin@lms.com",
+      "password": "$2a$10$OySO0GqmMF5t19aMRrxZyeQs5DGpwBMw/c1QyA6NMxnstVcgz7GFe",
+      "role": "admin",
+      "skillLevel": "Advanced",
+      "careerGoal": "Full Stack Developer",
+      "xp": 1200,
+      "streak": 5,
+      "lastActiveDate": "2026-06-12T12:25:17.401Z",
+      "badges": [
+        "Welcome Onboard",
+        "System Administrator"
+      ],
+      "_id": "iljeqocmqawg861",
+      "createdAt": "2026-06-12T12:25:17.401Z",
+      "updatedAt": "2026-06-12T12:25:17.401Z"
+    },
+    {
+      "name": "Sourav T P",
+      "email": "student@lms.com",
+      "password": "$2a$10$OySO0GqmMF5t19aMRrxZyeQs5DGpwBMw/c1QyA6NMxnstVcgz7GFe",
+      "role": "student",
+      "skillLevel": "Beginner",
+      "careerGoal": "Full Stack Developer",
+      "interests": [
+        "React",
+        "AI",
+        "Deployment"
+      ],
+      "assignedTrack": "da35krymqawg81k",
+      "xp": 250,
+      "streak": 4,
+      "lastActiveDate": "2026-06-12T12:43:01.201Z",
+      "badges": [
+        "Welcome Onboard",
+        "First Step",
+        "Fast Learner"
+      ],
+      "_id": "tc06v3imqawg863",
+      "createdAt": "2026-06-12T12:25:17.403Z",
+      "updatedAt": "2026-06-12T12:43:01.204Z"
+    }
+  ],
+  "tracks": [
+    {
+      "title": "Full Stack Developer Track",
+      "description": "Master modern web development from frontend layout to backend deployment and database management.",
+      "difficulty": "Beginner",
+      "modules": [
+        {
+          "title": "HTML & CSS Essentials",
+          "description": "Learn the backbone of web layouts, semantic elements, responsive grid layouts, and Tailwind CSS basics.",
+          "order": 1,
+          "difficulty": "Beginner",
+          "duration": "4 hours",
+          "lessons": [
+            {
+              "title": "Introduction to HTML5 Semantics",
+              "videoURL": "https://www.youtube.com/embed/qz0aGYMCip0",
+              "duration": "12 mins",
+              "_id": "s2119p5mqawg81l"
+            },
+            {
+              "title": "CSS Grid & Flexbox Masterclass",
+              "videoURL": "https://www.youtube.com/embed/jV8BXP4nGYo",
+              "duration": "18 mins",
+              "_id": "1w3zltfmqawg81l"
+            },
+            {
+              "title": "Responsive Design & Tailwind Basics",
+              "videoURL": "https://www.youtube.com/embed/m7OWXtbiXX8",
+              "duration": "15 mins",
+              "_id": "jfw7b0wmqawg81l"
+            }
+          ],
+          "_id": "xy0o0hcmqawg81l"
+        },
+        {
+          "title": "JavaScript Fundamentals",
+          "description": "Understand variables, loops, ES6 classes, promises, async/await, DOM manipulations, and API fetching.",
+          "order": 2,
+          "difficulty": "Beginner",
+          "duration": "6 hours",
+          "lessons": [
+            {
+              "title": "JavaScript Variables & Control Flow",
+              "videoURL": "https://www.youtube.com/embed/W6NZfCO5SIk",
+              "duration": "14 mins",
+              "_id": "2hpbad1mqawg81l"
+            },
+            {
+              "title": "Understanding Callbacks & Promises",
+              "videoURL": "https://www.youtube.com/embed/2d7s3m1tpSg",
+              "duration": "20 mins",
+              "_id": "4irhm5emqawg81l"
+            },
+            {
+              "title": "Async/Await & Fetching Web APIs",
+              "videoURL": "https://www.youtube.com/embed/Yp9KIcSKTNg",
+              "duration": "16 mins",
+              "_id": "jw8b2ytmqawg81l"
+            }
+          ],
+          "_id": "b57h0gzmqawg81l"
+        },
+        {
+          "title": "React Fundamentals",
+          "description": "Explore building interactive declarative user interfaces, components, custom hooks, and state context.",
+          "order": 3,
+          "difficulty": "Intermediate",
+          "duration": "8 hours",
+          "lessons": [
+            {
+              "title": "React Component Lifecycle & Props",
+              "videoURL": "https://www.youtube.com/embed/Ke90Tje7VS0",
+              "duration": "15 mins",
+              "_id": "atn3qu1mqawg81l"
+            },
+            {
+              "title": "State Management with useState & useEffect",
+              "videoURL": "https://www.youtube.com/embed/O6P86uwfdGP",
+              "duration": "22 mins",
+              "_id": "d9c9z5bmqawg81l"
+            },
+            {
+              "title": "Global Context API & Custom Hooks",
+              "videoURL": "https://www.youtube.com/embed/35lXWv-t1gY",
+              "duration": "18 mins",
+              "_id": "bnpukaymqawg81l"
+            }
+          ],
+          "_id": "7vir5awmqawg81l"
+        },
+        {
+          "title": "Node.js Core Architecture",
+          "description": "Dive into backend Javascript, the V8 runtime environment, event loops, and package management.",
+          "order": 4,
+          "difficulty": "Intermediate",
+          "duration": "5 hours",
+          "lessons": [
+            {
+              "title": "Introduction to Node.js & NPM",
+              "videoURL": "https://www.youtube.com/embed/TlB_eWDSMt4",
+              "duration": "12 mins",
+              "_id": "k3rac3ymqawg81l"
+            },
+            {
+              "title": "File System Operations & Streams",
+              "videoURL": "https://www.youtube.com/embed/U57kU311c38",
+              "duration": "17 mins",
+              "_id": "j3oi1aqmqawg81l"
+            }
+          ],
+          "_id": "4u7e9zsmqawg81l"
+        },
+        {
+          "title": "Express.js REST Services",
+          "description": "Develop robust backends with server routing, request parameters, JSON APIs, and custom middleware.",
+          "order": 5,
+          "difficulty": "Intermediate",
+          "duration": "6 hours",
+          "lessons": [
+            {
+              "title": "Creating Express Servers & Route Controllers",
+              "videoURL": "https://www.youtube.com/embed/SccSCuHhOw0",
+              "duration": "18 mins",
+              "_id": "3o883i7mqawg81l"
+            },
+            {
+              "title": "Writing Express Custom Middlewares",
+              "videoURL": "https://www.youtube.com/embed/lY6icfhap2o",
+              "duration": "14 mins",
+              "_id": "zh0bbknmqawg81l"
+            }
+          ],
+          "_id": "k09xjxcmqawg81l"
+        },
+        {
+          "title": "MongoDB & Data Operations",
+          "description": "Store client details dynamically using MongoDB document schemas and Mongoose database aggregators.",
+          "order": 6,
+          "difficulty": "Advanced",
+          "duration": "6 hours",
+          "lessons": [
+            {
+              "title": "NoSQL DB Architecture & Mongo Atlas Setup",
+              "videoURL": "https://www.youtube.com/embed/oqiMC7_E4A4",
+              "duration": "16 mins",
+              "_id": "yyai54dmqawg81l"
+            },
+            {
+              "title": "Mongoose Schema Definitions & Queries",
+              "videoURL": "https://www.youtube.com/embed/W5KpPl5IO18",
+              "duration": "19 mins",
+              "_id": "fum61bvmqawg81l"
+            }
+          ],
+          "_id": "af5nwuumqawg81l"
+        },
+        {
+          "title": "Production Deployment",
+          "description": "Deploy client UI with Vercel and web servers on Render or VPS systems.",
+          "order": 7,
+          "difficulty": "Advanced",
+          "duration": "4 hours",
+          "lessons": [
+            {
+              "title": "Deploying Frontends with Vercel/Netlify",
+              "videoURL": "https://www.youtube.com/embed/2kL1Z41h_z8",
+              "duration": "11 mins",
+              "_id": "4zma2xwmqawg81l"
+            },
+            {
+              "title": "Deploying API Servers on Render & CORS Handling",
+              "videoURL": "https://www.youtube.com/embed/p1Q4yE_K09w",
+              "duration": "15 mins",
+              "_id": "c5xy22xmqawg81l"
+            }
+          ],
+          "_id": "xu7dkubmqawg81l"
+        }
+      ],
+      "_id": "da35krymqawg81k",
+      "createdAt": "2026-06-12T12:25:17.240Z",
+      "updatedAt": "2026-06-12T12:25:17.241Z"
+    },
+    {
+      "title": "AI Engineer Track",
+      "description": "Launch your career in intelligence systems from foundational math and python to training custom LLMs.",
+      "difficulty": "Intermediate",
+      "modules": [
+        {
+          "title": "Python for Artificial Intelligence",
+          "description": "Dive into data processing, NumPy array structures, Pandas dataframes, and advanced file IO.",
+          "order": 1,
+          "difficulty": "Beginner",
+          "duration": "5 hours",
+          "lessons": [
+            {
+              "title": "Advanced Python Arrays with NumPy",
+              "videoURL": "https://www.youtube.com/embed/QUT1VHiLgKQ",
+              "duration": "15 mins",
+              "_id": "0iuxw1cmqawg81n"
+            },
+            {
+              "title": "Data Manipulation using Pandas DataFrames",
+              "videoURL": "https://www.youtube.com/embed/vmEHCJof1kU",
+              "duration": "18 mins",
+              "_id": "1y2xv64mqawg81n"
+            }
+          ],
+          "_id": "6lbfngnmqawg81n"
+        },
+        {
+          "title": "Mathematics for AI",
+          "description": "Gain linear algebra fundamentals, matrix transformations, calculus derivatives, and gradient descents.",
+          "order": 2,
+          "difficulty": "Intermediate",
+          "duration": "8 hours",
+          "lessons": [
+            {
+              "title": "Linear Algebra: Matrices & Vector Spaces",
+              "videoURL": "https://www.youtube.com/embed/fNk_zzaMoEs",
+              "duration": "22 mins",
+              "_id": "9obs3o0mqawg81n"
+            },
+            {
+              "title": "Calculus: Understanding Gradients & Backpropagation",
+              "videoURL": "https://www.youtube.com/embed/Ilg3gGewQ5U",
+              "duration": "25 mins",
+              "_id": "peknv9smqawg81n"
+            }
+          ],
+          "_id": "zjzikypmqawg81n"
+        },
+        {
+          "title": "Machine Learning Foundations",
+          "description": "Create models for regression, random forests, classification, clusters, and validation.",
+          "order": 3,
+          "difficulty": "Intermediate",
+          "duration": "10 hours",
+          "lessons": [
+            {
+              "title": "Supervised Learning: Regressions & Classification",
+              "videoURL": "https://www.youtube.com/embed/GwIo3gGisEA",
+              "duration": "20 mins",
+              "_id": "h9wbuqtmqawg81n"
+            },
+            {
+              "title": "Training Models with Scikit-Learn",
+              "videoURL": "https://www.youtube.com/embed/M9Itm95JzL0",
+              "duration": "18 mins",
+              "_id": "um4phvdmqawg81n"
+            }
+          ],
+          "_id": "rltg4s1mqawg81n"
+        },
+        {
+          "title": "Deep Learning & Neural Networks",
+          "description": "Develop feed-forward and convolutional models using PyTorch/TensorFlow frameworks.",
+          "order": 4,
+          "difficulty": "Advanced",
+          "duration": "12 hours",
+          "lessons": [
+            {
+              "title": "Building Neural Networks in PyTorch",
+              "videoURL": "https://www.youtube.com/embed/c36lUUrxsHs",
+              "duration": "25 mins",
+              "_id": "x64lt6fmqawg81n"
+            },
+            {
+              "title": "CNNs for Computer Vision Applications",
+              "videoURL": "https://www.youtube.com/embed/aircAruvnKk",
+              "duration": "21 mins",
+              "_id": "mr1ie52mqawg81n"
+            }
+          ],
+          "_id": "o1prg47mqawg81n"
+        },
+        {
+          "title": "Generative AI & LLMs",
+          "description": "Examine Attention networks, Transformers, vector databases, and prompt fine-tunings.",
+          "order": 5,
+          "difficulty": "Advanced",
+          "duration": "10 hours",
+          "lessons": [
+            {
+              "title": "Attention Mechanism & Transformer Architectures",
+              "videoURL": "https://www.youtube.com/embed/zxQyTk8vQQM",
+              "duration": "28 mins",
+              "_id": "bke6qr6mqawg81n"
+            },
+            {
+              "title": "RAG & Vector Embeddings with Pinecone",
+              "videoURL": "https://www.youtube.com/embed/Q-Z8c6N0k9w",
+              "duration": "24 mins",
+              "_id": "we57128mqawg81n"
+            }
+          ],
+          "_id": "igii3gsmqawg81n"
+        }
+      ],
+      "_id": "oz6u4htmqawg81n",
+      "createdAt": "2026-06-12T12:25:17.243Z",
+      "updatedAt": "2026-06-12T12:25:17.243Z"
+    },
+    {
+      "title": "Data Analyst Track",
+      "description": "Extract business insights and compile dynamic summaries from relational query logs to PowerBI visual panels.",
+      "difficulty": "Beginner",
+      "modules": [
+        {
+          "title": "Excel Data Modeling",
+          "description": "Master pivots, conditional formulas, VBA scripting, and dynamic sorting tables.",
+          "order": 1,
+          "difficulty": "Beginner",
+          "duration": "4 hours",
+          "lessons": [
+            {
+              "title": "Advanced Excel VLOOKUP, INDEX & MATCH",
+              "videoURL": "https://www.youtube.com/embed/y29n63k_dpg",
+              "duration": "12 mins",
+              "_id": "39glqi4mqawg81p"
+            },
+            {
+              "title": "Creating Professional Pivot Tables & Slicers",
+              "videoURL": "https://www.youtube.com/embed/mK3z4X8uX4I",
+              "duration": "16 mins",
+              "_id": "u5n9hwqmqawg81p"
+            }
+          ],
+          "_id": "4sdxjacmqawg81p"
+        },
+        {
+          "title": "SQL querying for Analysts",
+          "description": "Construct queries, aggregate outputs, filter indices, join schemas, and nested queries.",
+          "order": 2,
+          "difficulty": "Beginner",
+          "duration": "6 hours",
+          "lessons": [
+            {
+              "title": "SQL Basic Queries: SELECT, WHERE, GROUP BY",
+              "videoURL": "https://www.youtube.com/embed/HXV3zeQKqGY",
+              "duration": "15 mins",
+              "_id": "sn1fzulmqawg81p"
+            },
+            {
+              "title": "Advanced SQL JOINS & Common Table Expressions",
+              "videoURL": "https://www.youtube.com/embed/9Pzj7Aj25lw",
+              "duration": "20 mins",
+              "_id": "s5wdq5wmqawg81p"
+            }
+          ],
+          "_id": "e3f1mwvmqawg81p"
+        },
+        {
+          "title": "Python Analytics (NumPy & Pandas)",
+          "description": "Clean tables, filter variables, merge datasets, and clean up empty columns.",
+          "order": 3,
+          "difficulty": "Intermediate",
+          "duration": "8 hours",
+          "lessons": [
+            {
+              "title": "Python Pandas: Data Cleaning Techniques",
+              "videoURL": "https://www.youtube.com/embed/gpCGuM5_K0E",
+              "duration": "18 mins",
+              "_id": "csmjphxmqawg81p"
+            },
+            {
+              "title": "Exploratory Data Analysis with Python",
+              "videoURL": "https://www.youtube.com/embed/3e4-c-B1-bQ",
+              "duration": "22 mins",
+              "_id": "y7ooqtamqawg81p"
+            }
+          ],
+          "_id": "fpbaf3pmqawg81p"
+        },
+        {
+          "title": "Data Visualization (Matplotlib & Seaborn)",
+          "description": "Plot graphs, charts, scatters, heatmaps, and trend projections.",
+          "order": 4,
+          "difficulty": "Intermediate",
+          "duration": "5 hours",
+          "lessons": [
+            {
+              "title": "Creating High Quality Plots with Seaborn",
+              "videoURL": "https://www.youtube.com/embed/6GUuR7zO8ps",
+              "duration": "15 mins",
+              "_id": "td7ex5tmqawg81p"
+            }
+          ],
+          "_id": "zquu3pomqawg81p"
+        },
+        {
+          "title": "Power BI Dashboards",
+          "description": "Design dashboard views, connect DB interfaces, establish queries, and construct visuals.",
+          "order": 5,
+          "difficulty": "Intermediate",
+          "duration": "6 hours",
+          "lessons": [
+            {
+              "title": "Introduction to Power BI Desktop & DAX",
+              "videoURL": "https://www.youtube.com/embed/AGrl-H87pRU",
+              "duration": "20 mins",
+              "_id": "rbzynyvmqawg81p"
+            },
+            {
+              "title": "Designing Beautiful and Interactive BI Reports",
+              "videoURL": "https://www.youtube.com/embed/7V6Vf2dF_B8",
+              "duration": "18 mins",
+              "_id": "20y4j27mqawg81p"
+            }
+          ],
+          "_id": "p8j45cmmqawg81p"
+        }
+      ],
+      "_id": "13hu9swmqawg81p",
+      "createdAt": "2026-06-12T12:25:17.245Z",
+      "updatedAt": "2026-06-12T12:25:17.245Z"
+    }
+  ],
+  "progress": [
+    {
+      "userId": "tc06v3imqawg863",
+      "trackId": "da35krymqawg81k",
+      "completedLessons": [
+        "s2119p5mqawg81l",
+        "1w3zltfmqawg81l"
+      ],
+      "completedModules": [],
+      "percentage": 12,
+      "_id": "ucjjpbrmqawg865",
+      "createdAt": "2026-06-12T12:25:17.405Z",
+      "updatedAt": "2026-06-12T12:25:17.405Z"
+    }
+  ]
+}

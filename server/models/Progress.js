@@ -11,8 +11,22 @@ const progressSchema = new mongoose.Schema({
 
 const MongooseProgress = mongoose.model('Progress', progressSchema);
 
-module.exports = {
-  get Progress() {
-    return global.useJsonDb ? jsonDb.progress : MongooseProgress;
+const ProgressProxy = new Proxy({}, {
+  get(target, prop) {
+    const activeModel = global.useJsonDb ? jsonDb.progress : MongooseProgress;
+    const val = activeModel[prop];
+    if (typeof val === 'function') {
+      return val.bind(activeModel);
+    }
+    return val;
+  },
+  construct(target, argumentsList) {
+    const activeModel = global.useJsonDb ? jsonDb.progress : MongooseProgress;
+    return Reflect.construct(activeModel, argumentsList);
   }
+});
+
+module.exports = {
+  Progress: ProgressProxy
 };
+

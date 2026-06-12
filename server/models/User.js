@@ -18,8 +18,22 @@ const userSchema = new mongoose.Schema({
 
 const MongooseUser = mongoose.model('User', userSchema);
 
-module.exports = {
-  get User() {
-    return global.useJsonDb ? jsonDb.users : MongooseUser;
+const UserProxy = new Proxy({}, {
+  get(target, prop) {
+    const activeModel = global.useJsonDb ? jsonDb.users : MongooseUser;
+    const val = activeModel[prop];
+    if (typeof val === 'function') {
+      return val.bind(activeModel);
+    }
+    return val;
+  },
+  construct(target, argumentsList) {
+    const activeModel = global.useJsonDb ? jsonDb.users : MongooseUser;
+    return Reflect.construct(activeModel, argumentsList);
   }
+});
+
+module.exports = {
+  User: UserProxy
 };
+

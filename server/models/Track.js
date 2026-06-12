@@ -25,8 +25,22 @@ const trackSchema = new mongoose.Schema({
 
 const MongooseTrack = mongoose.model('Track', trackSchema);
 
-module.exports = {
-  get Track() {
-    return global.useJsonDb ? jsonDb.tracks : MongooseTrack;
+const TrackProxy = new Proxy({}, {
+  get(target, prop) {
+    const activeModel = global.useJsonDb ? jsonDb.tracks : MongooseTrack;
+    const val = activeModel[prop];
+    if (typeof val === 'function') {
+      return val.bind(activeModel);
+    }
+    return val;
+  },
+  construct(target, argumentsList) {
+    const activeModel = global.useJsonDb ? jsonDb.tracks : MongooseTrack;
+    return Reflect.construct(activeModel, argumentsList);
   }
+});
+
+module.exports = {
+  Track: TrackProxy
 };
+
